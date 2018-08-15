@@ -1,8 +1,8 @@
 #!/bin/bash
 
 TMP_FOLDER=$(mktemp -d)
-CONFIG_FILE='savenode.conf'
-CONFIGFOLDER='/root/.savenode'
+CONFIG_FILE='amnesia.conf'
+CONFIGFOLDER='/root/.amnesia'
 COIN_DAEMON='amnesiad'
 COIN_CLI='amnesia-cli'
 COIN_PATH='/usr/local/bin/'
