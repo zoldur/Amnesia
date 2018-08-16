@@ -8,7 +8,7 @@ COIN_CLI='amnesia-cli'
 COIN_PATH='/usr/local/bin/'
 COIN_TGZ='https://github.com/amnesiacoin/amnesia/releases/download/2.1.1.1/Amnesia_ubuntu_16.04_daemon.tar.gz'
 COIN_ZIP=$(echo $COIN_TGZ | awk -F'/' '{print $NF}')
-COIN_NAME='Amnesia '
+COIN_NAME='Amnesia'
 COIN_PORT=36666
 RPC_PORT=36662
 
